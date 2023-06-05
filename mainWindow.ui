@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>재고관리</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>0</y>
+      <width>671</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>584</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>기초관리</string>
+    </property>
+    <addaction name="actionCustomer"/>
+    <addaction name="actionGoods"/>
+    <addaction name="actionjunphyo"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>보고서출력</string>
+    </property>
+    <addaction name="actioncustomer_list"/>
+    <addaction name="actiongoods_list"/>
+    <addaction name="actionjunphyo_list"/>
+    <addaction name="actionsituation"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCustomer">
+   <property name="icon">
+    <iconset>
+     <normaloff>who.png</normaloff>who.png</iconset>
+   </property>
+   <property name="text">
+    <string>거래처관리</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>맑은 고딕</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionGoods">
+   <property name="icon">
+    <iconset>
+     <normaloff>good-job.png</normaloff>good-job.png</iconset>
+   </property>
+   <property name="text">
+    <string>상품관리</string>
+   </property>
+  </action>
+  <action name="actionjunphyo">
+   <property name="icon">
+    <iconset>
+     <normaloff>sold.png</normaloff>sold.png</iconset>
+   </property>
+   <property name="text">
+    <string>입출고전표관리</string>
+   </property>
+  </action>
+  <action name="actioncnfrh">
+   <property name="text">
+    <string>출고관리</string>
+   </property>
+  </action>
+  <action name="actioncustomer_list">
+   <property name="text">
+    <string>거래처목록</string>
+   </property>
+  </action>
+  <action name="actiongoods_list">
+   <property name="text">
+    <string>상품목록</string>
+   </property>
+  </action>
+  <action name="actionjunphyo_list">
+   <property name="text">
+    <string>입출고전표</string>
+   </property>
+  </action>
+  <action name="actionsituation">
+   <property name="text">
+    <string>재고현황</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
